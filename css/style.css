@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6em;
+    background: #fff;
+}
+.fylo-header{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+.fylo-header .fylo-image{
+    padding: 30px;
+}
+.fylo-nav ul{
+    list-style: none;
+    display: flex;
+    margin-right: 40px;
+}
+
+.fylo-nav ul a{
+    text-decoration: none;
+    padding: 30px;
+    color: #111010;
+}
+.fylo-file{
+    display: flex;
+    /* text-align: center; */
+    align-items: center;
+    justify-content: space-between;
+}
+.file-content {
+   margin-left: 30px;
+   
+   
+}
+.file-content h2{
+    font-size: 25px;
+    padding-bottom: 15px;
+    line-height: 35px;
+}
+.file-content p{
+    font-size: 13px;
+    color: #111010;
+    line-height: 17px;
+    padding-bottom: 15px;
+}
+.file-image img{
+    height: 500px;
+    width: 750px;
+    margin-right: 80px;
+    /* width: 30px; */
+}
+.file-content input{
+    border: 2px solid #ddd;
+    height: 30px;
+    width: 200px;
+    border-radius: 4px;
+}
+.file-content input::placeholder{
+    color: #a3a1a1;
+    padding-left: 20px;
+    font-size: 12px;
+}
+.file-content button{
+    width: 150px;
+    /* padding: 15px; */
+    height: 30px;
+    color: #fff;
+    font-size: 11px;
+    background-color: #3164F5ff;
+    border: none;
+    border-radius: 4px;
+    
+}
+#image img{
+    width: 100%;
+}
+#fylo-product{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F9F8FEff;
+    margin-top: -6px;
+}
+.product-image img{
+    height: 500px;
+    width: 750px;
+    margin-right: 80px;
+    /* width: 30px; */
+}
+#product-center{
+    margin-left: 30px;
+}
+.product-content h2{
+    margin-bottom: 20px;
+   
+}
+.product-content p{
+    line-height: 19px;
+    font-size: 13px;
+}
+.product-content .p1{
+    margin-bottom: 13px;
+}
+.product-content .p2{
+    margin-bottom: 13px;
+}
+.product-content a{
+    color: #06ac3e;
+    font-size: 15px;
+    text-decoration: none;
+}
+.product-content a i{
+    background-color: #06ac3e;
+    color: #fff;
+    padding: 3px;
+    font-size: 9px;
+    border-radius: 50%;
+}
+hr{
+    width: 146px;
+    background-color: #06ac3e;
+}
+.product-testimonials{
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    width: 310px;
+}
+.product-testimonials p{
+    margin:10px 0;
+    font-size: 13px;
+    line-height: 16px;
+    
+}
+.kyle-avatar{
+    display: flex;
+}
+.kyle-avatar img{
+    border-radius: 50%;
+    width: 60px;
+}
+.kyle-avatar .kyle-details{
+    line-height: 6px;
+    margin-top: 18px;
+    padding-left: 7px;
+}
+#access{
+    background-color: #575988ff;
+    padding: 70px;
+    
+}
+.early-access{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.access-content h2{
+    margin-bottom: 20px;
+    color: #fff;
+    font-weight: 400;
+}
+.access-content p{
+    line-height: 20px;
+    color: #fff;
+    font-size: 14px;
+}
+.access-button{
+    display: flex;
+    flex-direction: column;
+   margin-right: 50px;
+
+}
+.access-button input{
+    border: none;
+    height: 30px;
+    width: 300px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+.access-button input::placeholder{
+    color: #a3a1a1;
+    padding-left: 20px;
+    font-size: 12px;
+}
+.access-button button{
+    width: 150px;
+    /* padding: 15px; */
+    height: 30px;
+    color: #fff;
+    font-size: 11px;
+    background-color: #3164F5ff;
+    border: none;
+    border-radius: 4px;
+}
+#footer{
+    background: #07043Bff;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+#footer .contact{
+    line-height: 35px;
+}
+#footer .contact img{
+    height: 45px;
+}
+#footer .contact p{
+    font-size: 13px;
+
+}
+#footer .contact p i{
+    font-size: 10px;
+}
+#footer .contact p img{
+    height: 10px;
+}
+
+#footer .about {
+    font-size: 13px;
+    margin-top: 45px;
+}
+#footer .term {
+    font-size: 13px;
+    margin-top: 45px;
+}
+#footer .icon {
+    font-size: 13px;
+    margin-top: 45px;
+    /* padding: 15px; */
+   margin-right: 100px;
+ 
+
+}
+#footer .icon i{
+    border: #fff solid 1px;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 5px;
+    
+}
+
