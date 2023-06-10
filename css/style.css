@@ -248,4 +248,160 @@ hr{
     margin: 5px;
     
 }
+@media(max-width: 600px){
 
+    .fylo-file{
+        flex-direction: column-reverse;
+    }
+    .fylo-nav{
+        margin-right: 40px;
+    } 
+    .fylo-nav ul a{
+        font-size: 15px;
+        padding: 15px;
+    } 
+
+  .file-image img{
+    width: 450px;
+    height: 350px;
+    margin-top: 100px;
+  }
+  .file-content{
+    width: 79%;
+    margin-right:  70px;
+  }
+  .file-content h2{
+    margin:20px 40px;
+    font-size: 30px;
+    padding-bottom: 25px;
+    line-height: 40px;
+    text-align: center;
+    align-items: center;
+}
+.file-content p{
+    margin: 20px 40px;
+    font-size: 13px;
+    color: #111010;
+    line-height: 17px;
+    padding-bottom: 20px;
+    text-align: center; 
+}
+.file-button{
+    display: flex;
+    flex-direction: column;
+}
+.file-content input{
+    border: 2px solid #333;
+    height: 50px;
+    width: 85%;
+    border-radius: 4px;
+    margin: 15px 35px;
+    align-items: center;
+   
+}
+.file-content button{
+    width: 85%;
+    margin: 0 35px;
+    height: 50px;
+    font-size: 14px;   
+}
+#image{
+    margin-top: 50px;
+}
+#fylo-product{
+    flex-direction: column-reverse;
+   
+}
+#product-center{
+    margin: 20px 50px;
+}
+.product-image img{
+    width: 450px;
+    height: 350px;
+    margin-top: 100px;
+}
+.product-content h2{
+    margin-top: 20px;
+    text-align: center;
+}
+.product-content p{
+    font-size: 14px;
+    text-align: left;
+    line-height: 20px;
+    margin: 20px 50px;
+
+}
+.product-content a{
+    margin: 0 200px;
+
+}
+hr{
+   margin-left: 200px;
+   
+}
+.product-testimonials{
+  margin: 60px 100px;
+  width: 350px;
+}
+.early-access{
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    /* margin: 20px 70px; */
+}
+
+  .access-content h2{
+    margin-top: 10px;
+    font-size: 25px;
+    padding-bottom: 15px;
+    line-height: 20px;
+    text-align: center;
+}
+.access-content p{
+    font-size: 16px;
+    color: #fff;
+    line-height: 16px;
+    padding-bottom: 20px;
+    text-align: center; 
+    font-weight: 300;
+}
+.access-button{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+.access-button input{
+    border: none;
+    height: 50px;
+    width: 350px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+   
+   
+}
+.access-button button{
+    width: 350px;
+    height: 50px;
+    font-size: 14px;   
+}
+#footer{
+    flex-direction: column;
+}
+#footer p{
+    font-size: 18px;
+}
+#footer .contact p{
+    font-size: 18px;
+
+}
+#footer .contact p i{
+    font-size: 16px;
+}
+#footer .contact p img{
+    height: 16px;
+}
+#footer .icon {
+    margin-left: 100px;
+}
+}
